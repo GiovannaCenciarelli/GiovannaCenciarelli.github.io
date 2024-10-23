@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Georgia', serif;
+    background-color: #2d0b0b; /* Fundo escuro femme fatale */
+    color: #f9c5d1; /* Rosa claro para o texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #3b0d0d;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #f9c5d1;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #f9c5d1;
+    color: #2d0b0b;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #f29aae;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #f9c5d1;
+  }
+  
+  #resultado img {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
