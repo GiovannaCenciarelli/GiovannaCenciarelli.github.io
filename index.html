@@ -8,12 +8,24 @@
 </head>
 <body>
   <div class="container">
-    <h1>Qual personagem de Sex and the City você é?</h1>
-    <button id="sortearBtn">SORTEAR</button>
-    <div id="resultado">
-      <!-- O resultado e a imagem da personagem sorteada aparecerão aqui -->
+    <div class="boas-vindas">
+      <h1>Olá, bom dia</h1>
+      <p>Espero que seu dia esteja tão bom quanto aquele chocolate Lollo da Nestlé.</p>
     </div>
+
+    <h2>Qual personagem de <em>Sex and the City</em> você é?</h2>
+
+    <!-- Agrupamento de botões para organização correta -->
+    <div class="botoes">
+      <button id="sortearBtn">SORTEAR</button>
+      <button id="naoCliqueBtn" onclick="window.location.href='site.html'">NÃO CLICA</button>
+      <button id="livrosBtn" onclick="window.location.href='livros.html'">BONS LIVROS PARA LER SE VC CONFIA</button>
+      <button id="filmesBtn" onclick="window.location.href='filmes.html'">BONS FILMES PARA VER SE VC É MEIO TONHAO</button>
+    </div>
+
+    <div id="resultado"></div>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
